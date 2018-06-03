@@ -39,13 +39,20 @@ button {
     width: 50px;
 }
 
-#Debit, #Credit {
-    width: 100px;
-}
-
 #Company, #Journal, #Title3 {
     width: 100%;
     text-align: center;
     font-weight: bolder;
     font-size: 15px;
+}
+
+span 
+{
+    border: solid 1px black;
+}
+div 
+{
+    min-width: 100px;
+    max-width: 200px;
+    text-align: right;
 }

@@ -11,8 +11,8 @@ function AddRow() {
     cell2.innerHTML = '<input id="Day" type="text">';
     cell3.innerHTML = '<input id="Description" type="text">';
     cell4.innerHTML = '<input id="PostRef" type="text">';
-    cell5.innerHTML = '$<input id="Debit" type="text">';
-    cell6.innerHTML = '$<input id="Credit" type="text">';
+    cell5.innerHTML = '<div>$<span contenteditable="true">0.00</span></div>';
+    cell6.innerHTML = '<div>$<span contenteditable="true">0.00</span></div>';
 }
 
 function RemoveRow() {

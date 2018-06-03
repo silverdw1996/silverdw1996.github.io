@@ -26,3 +26,18 @@ button {
 input {
     width: 75%;
 }
+
+span 
+{
+    border: solid 1px black;
+}
+div 
+{
+    min-width: 100px;
+    max-width: 200px;
+    text-align: right;
+}
+
+#AccountTitle {
+    text-align: left;
+}

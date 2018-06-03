@@ -12,17 +12,17 @@ function AddRow() {
     var cell9 = row.insertCell(8);
     var cell10 = row.insertCell(9);
     var cell11 = row.insertCell(10);
-    cell1.innerHTML = '<input type="text" />';
-    cell2.innerHTML = '$<input type="text" />';
-    cell3.innerHTML = '$<input type="text" />';
-    cell4.innerHTML = '$<input type="text" />';
-    cell5.innerHTML = '$<input type="text" />';
-    cell6.innerHTML = '$<input type="text" />';
-    cell7.innerHTML = '$<input type="text" />';
-    cell8.innerHTML = '$<input type="text" />';
-    cell9.innerHTML = '$<input type="text" />';
-    cell10.innerHTML = '$<input type="text" />';
-    cell11.innerHTML = '$<input type="text" />';
+    cell1.innerHTML = '<div id="AccountTitle"><span contenteditable="true">Account</span></div>';
+    cell2.innerHTML = '<div>$<span contenteditable="true">0.00</span></div>';
+    cell3.innerHTML = '<div>$<span contenteditable="true">0.00</span></div>';
+    cell4.innerHTML = '<div>$<span contenteditable="true">0.00</span></div>';
+    cell5.innerHTML = '<div>$<span contenteditable="true">0.00</span></div>';
+    cell6.innerHTML = '<div>$<span contenteditable="true">0.00</span></div>';
+    cell7.innerHTML = '<div>$<span contenteditable="true">0.00</span></div>';
+    cell8.innerHTML = '<div>$<span contenteditable="true">0.00</span></div>';
+    cell9.innerHTML = '<div>$<span contenteditable="true">0.00</span></div>';
+    cell10.innerHTML = '<div>$<span contenteditable="true">0.00</span></div>';
+    cell11.innerHTML = '<div>$<span contenteditable="true">0.00</span></div>';
 }
 
 function RemoveRow() {
