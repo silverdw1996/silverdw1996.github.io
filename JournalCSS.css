@@ -1,0 +1,44 @@
+h1 {
+    text-align: center;
+    color: crimson;
+}
+
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 0px;
+}
+
+table {
+    float: left;
+    margin-bottom: 10px;
+}
+
+button {
+    float: left;
+    margin-right: 20px;
+    margin-top: 25px;
+    font-size: 150%;
+}
+
+#Month {
+    width: 35px;
+}
+
+#Day {
+    width: 20px;
+}
+
+#Description {
+    width: 300px;
+}
+
+#PostRef {
+    width: 50px;
+}
+
+#Debit, #Credit {
+    width: 100px;
+}

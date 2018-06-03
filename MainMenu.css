@@ -1,0 +1,20 @@
+h1 {
+    text-align: center;
+    color: crimson;
+}
+
+button {
+    font-size: 200%;
+    color: rgb(250,10,10);
+    background-color: blue;
+}
+
+#ComingSoon {
+    background-color: darkred
+}
+
+#Changelog {
+    background-color: cyan;
+    margin-top: 10%;
+    float: left;
+}

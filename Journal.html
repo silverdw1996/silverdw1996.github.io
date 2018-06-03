@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>Journal</title>
+    <link rel="stylesheet" type="text/css" href="JournalCSS.css">
+    <script src="JournalJS.js"></script>
+</head>
+
+<body>
+   <h1>Journal (Beta)0.1.0</h1>
+   
+   <table id="myTable">
+    <tr>
+        <th colspan="2">Date</th>
+        <th>Description</th>
+        <th>Post Ref</th>
+        <th>Debit</th>
+        <th>Credit</th>
+    </tr>  
+    <tr>
+        <td><input id="Month" type="text"></td>
+        <td><input id="Day" type="text"></td>
+        <td><input id="Description" type="text"></td>
+        <td><input id="PostRef" type="text"></td>
+        <td>$<input id="Debit" type="text"></td>
+        <td>$<input id="Credit" type="text"></td>
+    </tr> 
+   </table>
+   <button onclick="AddRow()">Add Row</button>
+   <button onclick="RemoveRow()">Remove Row</button>
+    
+</body>
+</html>

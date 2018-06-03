@@ -13,16 +13,16 @@ function AddRow() {
     var cell10 = row.insertCell(9);
     var cell11 = row.insertCell(10);
     cell1.innerHTML = '<input type="text" />';
-    cell2.innerHTML = '$<input type="number" />';
-    cell3.innerHTML = '$<input type="number" />';
-    cell4.innerHTML = '$<input type="number" />';
-    cell5.innerHTML = '$<input type="number" />';
-    cell6.innerHTML = '$<input type="number" />';
-    cell7.innerHTML = '$<input type="number" />';
-    cell8.innerHTML = '$<input type="number" />';
-    cell9.innerHTML = '$<input type="number" />';
-    cell10.innerHTML = '$<input type="number" />';
-    cell11.innerHTML = '$<input type="number" />';
+    cell2.innerHTML = '$<input type="text" />';
+    cell3.innerHTML = '$<input type="text" />';
+    cell4.innerHTML = '$<input type="text" />';
+    cell5.innerHTML = '$<input type="text" />';
+    cell6.innerHTML = '$<input type="text" />';
+    cell7.innerHTML = '$<input type="text" />';
+    cell8.innerHTML = '$<input type="text" />';
+    cell9.innerHTML = '$<input type="text" />';
+    cell10.innerHTML = '$<input type="text" />';
+    cell11.innerHTML = '$<input type="text" />';
 }
 
 function RemoveRow() {
