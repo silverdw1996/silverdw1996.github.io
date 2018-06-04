@@ -1,33 +1,16 @@
-#MainMenu013 {
-    border: 1px solid blue;
-}
-
-#MainMenu {
+#MainMenu, #Worksheet, #Journal {
     float: left;
     margin-bottom: 15px;
 }
 
-#Worksheet026 {
-    border: 1px solid blue;
+#MainMenu013, #MainMenu014, #MainMenu021 {
+    border: 2px solid black;
 }
 
-#Worksheet025 {
-    border: 1px solid blue;
+#Worksheet025, #Worksheet026 {
+    border: 2px solid red;
 }
 
-#Worksheet {
-    float: left;
-    margin-bottom: 15px;
-}
-
-#Journal {
-    float: left;
-}
-
-#Journal011 {
-    border: 1px solid blue;
-}
-
-#Journal012 {
-    border: 1px solid blue;
+#Journal011, #Journal012 {
+    border: 2px solid blue;
 }

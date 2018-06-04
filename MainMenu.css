@@ -10,7 +10,8 @@ button {
 }
 
 #ComingSoon {
-    background-color: darkred
+    background-color: darkred;
+    float: right;
 }
 
 #Changelog {
@@ -20,5 +21,5 @@ button {
 }
 
 p {
-    margin-top: 10%;
+    clear: both;
 }

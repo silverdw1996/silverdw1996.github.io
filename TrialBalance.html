@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Trial Balance</title>
+    <link rel="stylesheet" type="text/css" href="TrialBalanceCSS.css">
+    <script src="TrialBalanceJS.js"></script>
+</head>
+
+<body>
+    <h1>Trial Balance (Beta)0.1.0</h1>
+    
+  <table id="myTable">
+   <tr>
+       <th colspan="3"><input id="Title1" type="text"></th>
+   </tr>
+   <tr>
+       <th colspan="3"><input id="Title2" type="text"></th>
+   </tr>
+   <tr>
+       <th colspan="3"><input id="Title3" type="text"></th>
+   </tr>
+      <tr>
+      <th>Account</th>
+          <th>Debit</th>
+          <th>Credit</th>
+      </tr>
+      <tr>
+      <td><input type="text" id="Account"></td>
+          <td><div>$<span contenteditable="true">0.00</span></div></td>
+          <td><div>$<span contenteditable="true">0.00</span></div></td>
+      </tr>
+    </table>
+    <button onclick="AddRow()">Add Row</button>
+   <button onclick="RemoveRow()">Remove Row</button>
+    
+</body>
+</html>

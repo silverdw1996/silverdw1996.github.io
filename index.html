@@ -1,6 +1,16 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+   <!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-120200010-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-120200010-1');
+</script>
+
     <meta charset="utf-8">
     <title>Main Menu</title>
     <link rel="stylesheet" type="text/css" href="MainMenu.css">
@@ -8,20 +18,20 @@
 
 <body>
   
-  <h1>Main Menu (Beta)0.1.3</h1>
+  <h1>Main Menu (Beta)0.2.1</h1>
    
    <button onclick="window.location.href='Journal.html'">Journal 0.1.2</button>
    <button id="ComingSoon">Ledger (Coming Soon)</button>
-   <button id="ComingSoon">Trial Balance (Coming Soon)</button>
+   <button onclick="window.location.href='TrialBalance.html'">Trial Balance 0.1.0</button>
    <button id="ComingSoon">Income Statement (Coming Soon)</button>
    <button id="ComingSoon">Statement of Retained Earnings (Coming Soon)</button>
-   <button id="ComingSoon">Balance Sheet (Coming Soon)</button>
+   <button onclick="window.location.href='BalanceSheet.html'">Balance Sheet 0.1.0</button>
    <button id="ComingSoon">Post-Closing Trial Balance (Coming Soon)</button>
    <button onclick="window.location.href='Worksheet.html'">Worksheet 0.2.6</button>
    
    <button id="Changelog" onclick="window.location.href='Changelog.html'">Website Changelog</button>
    
-   <p>Last updated June 3, 2018</p>
+   <p>Last updated June 4, 2018</p>
     
 </body>
 </html>

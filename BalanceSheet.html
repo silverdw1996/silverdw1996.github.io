@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Balance Sheet</title>
+    <link rel="stylesheet" type="text/css" href="BalanceSheetCSS.css">
+    <script src="BalanceSheetJS.js"></script>
+</head>
+
+<body>
+    <h1>Balance Sheet (Beta)0.1.0</h1>
+    
+    <table id="Assets">
+    <tr>
+        <th colspan="3">Assets</th>
+        </tr>
+        <tr>
+        <td><input type="text"></td>
+            <td><div><span contenteditable="true">$0.00</span></div></td>
+            <td><div><span contenteditable="true">$0.00</span></div></td>
+        </tr>
+    </table>
+    <table id="Liabilities">
+    <tr>
+        <th colspan="3">Liabilities</th>
+        </tr>
+        <tr>
+        <td><input type="text"></td>
+            <td><div><span contenteditable="true">$0.00</span></div></td>
+            <td><div><span contenteditable="true">$0.00</span></div></td>
+        </tr>
+        <tr>
+        <th colspan="3">Owner's Equity</th>
+        </tr>
+        <tr>
+        <td><input type="text"></td>
+            <td><div><span contenteditable="true">$0.00</span></div></td>
+            <td><div><span contenteditable="true">$0.00</span></div></td>
+        </tr>
+    </table>
+    
+    <script>
+    var i=2;
+    </script>
+    
+    <button onclick="AddRow1()" id="button1">Add Asset</button>
+   <button onclick="RemoveRow1()" id="button2">Remove Asset</button>
+    <button onclick="AddRow2()" id="button3">Add Liability</button>
+   <button onclick="RemoveRow2()" id="button4">Remove Liability</button>
+    <button onclick="AddRow3()" id="button5">Add Owner's Equity</button>
+   <button onclick="RemoveRow3()" id="button6">Remove Owner's Equity</button>
+  
+</body>
+</html>
