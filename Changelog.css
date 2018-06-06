@@ -1,4 +1,4 @@
-#MainMenu, #Worksheet, #Journal {
+#MainMenu, #Worksheet, #Journal, #BalanceSheet {
     float: left;
     margin-bottom: 15px;
 }
@@ -13,4 +13,8 @@
 
 #Journal011, #Journal012 {
     border: 2px solid blue;
+}
+
+#BalanceSheet011 {
+    border: 2px solid yellow;
 }
