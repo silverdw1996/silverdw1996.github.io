@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>Ledgers</title>
+    <link rel="stylesheet" type="text/css" href="LedgersCSS.css">
+    <script src="LedgersJS.js"></script>
+    <link rel="stylesheet" type="text/css" href="ALLCSS.css">
+</head>
+
+<body>
+   
+   <h1>Ledgers (Beta)0.1.0</h1>
+   <p>Disclaimer: Current version of Ledgers is limited.</p>
+   
+   <table id="myTable">
+   <tr>
+       <th colspan="5" id="account">Account: <input id="Account" type="text"></th>
+       <th colspan="3" id="accountno"> Account No.<input id="AccountNo" type="text"></th>
+   </tr>
+    <tr>
+        <th colspan="2" rowspan="2">Date</th>
+        <th rowspan="2">Description</th>
+        <th rowspan="2">Post Ref</th>
+        <th rowspan="2">Debit</th>
+        <th rowspan="2">Credit</th>
+        <th colspan="2">Balance</th>
+    </tr>  
+    <tr>
+        <th>Debit</th>
+        <th>Credit</th>
+    </tr>
+    <tr>
+        <td><input id="Month" type="text"></td>
+        <td><input id="Day" type="text"></td>
+        <td><input id="Description" type="text"></td>
+        <td><input id="PostRef" type="text"></td>
+        <td><div><span contenteditable="true">$0.00</span></div></td>
+        <td><div><span contenteditable="true">$0.00</span></div></td>
+        <td><div><span contenteditable="true">$0.00</span></div></td>
+        <td><div><span contenteditable="true">$0.00</span></div></td>
+    </tr> 
+   </table>
+   
+   <button onclick="AddRow()">Add Row</button>
+   <button onclick="RemoveRow()">Remove Row</button>
+    
+</body>
+</html>

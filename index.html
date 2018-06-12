@@ -10,28 +10,36 @@
 
   gtag('config', 'UA-120200010-1');
 </script>
-
     <meta charset="utf-8">
     <title>Main Menu</title>
     <link rel="stylesheet" type="text/css" href="MainMenu.css">
+    <link rel="stylesheet" type="text/css" href="ALLCSS.css">
+    <script src="MainMenuJS.js"></script>
 </head>
 
 <body>
   
-  <h1>Main Menu (Beta)0.2.1</h1>
+  <h1>Main Menu (Beta)0.3.0</h1>
    
-   <button onclick="window.location.href='Journal.html'">Journal 0.1.2</button>
-   <button id="ComingSoon">Ledger (Coming Soon)</button>
-   <button onclick="window.location.href='TrialBalance.html'">Trial Balance 0.1.0</button>
-   <button id="ComingSoon">Income Statement (Coming Soon)</button>
-   <button id="ComingSoon">Statement of Retained Earnings (Coming Soon)</button>
-   <button onclick="window.location.href='BalanceSheet.html'">Balance Sheet 0.1.1</button>
-   <button id="ComingSoon">Post-Closing Trial Balance (Coming Soon)</button>
-   <button onclick="window.location.href='Worksheet.html'">Worksheet 0.2.6</button>
+   <button onclick="window.location.href='Journal.html'" id="Journal">Journal 0.1.2</button>
+   <button onclick="window.location.href='Ledgers.html'" id="Ledger">Ledger 0.1.0</button>
+   <button onclick="window.location.href='TrialBalance.html'" id="TrialBalance">Trial Balance 0.1.0</button>
+   <button onclick="window.location.href='IncomeStatement.html'" id="IncomeStatement">Income Statement 0.1.0</button>
+   <button onclick="window.location.href='RetainedEarnings.html'" id="RetainedEarnings">Statement of Retained Earnings 0.1.0</button>
+   <button onclick="window.location.href='BalanceSheet.html'" id="BalanceSheet">Balance Sheet 0.1.1</button>
+   <button onclick="window.location.href='Worksheet.html'" id="Worksheet">Worksheet 0.2.6</button>
    
    <button id="Changelog" onclick="window.location.href='Changelog.html'">Website Changelog</button>
    
-   <p>Last updated June 5, 2018</p>
+   <p>Last updated June 12, 2018</p>
+    
+    <button id="Disclaimer" onclick="disclaimer()">Disclaimer</button>
+    
+    <div id="RandomDiv">
+        <br>
+    </div>
+    
+    <p id="Contact">If you have questions or suggestions, feel free to send an email: silverdw1996@yahoo.com</p>
     
 </body>
 </html>

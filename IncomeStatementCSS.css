@@ -1,0 +1,85 @@
+h1 {
+    text-align: center;
+    color: crimson;
+}
+
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 0px;
+}
+
+th {
+    text-align: left;
+}
+
+table {
+    float: left;
+    margin-bottom: 10px;
+}
+
+#Title1, #Title2, #Title3 {
+    width: 100%;
+    text-align: center;
+    font-weight: bolder;
+    font-size: 15px;
+}
+
+span 
+{
+    border: solid 1px black;
+}
+div 
+{
+    min-width: 100px;
+    max-width: 200px;
+    text-align: right;
+}
+
+#Assets {
+    position: absolute;
+    left: 8px;
+    top: 80px;
+}
+
+#Liabilities {
+    position: absolute;
+    left: 445px;
+    top: 80px;
+}
+
+#OwnersEquity {
+    position: absolute;
+    left: 445px;
+    top: 123px;
+}
+
+button {
+    font-size: 150%;
+}
+
+#button1 {
+    position: absolute;
+    left: 500px;
+    top: 90px;
+}
+
+#button2 {
+    position: absolute;
+    left: 500px;
+    top: 130px;
+}
+
+#button3 {
+    position: absolute;
+    left: 500px;
+    top: 200px;
+}
+
+#button4 {
+    position: absolute;
+    left: 500px;
+    top: 240px;
+}

@@ -3,23 +3,87 @@ h1 {
     color: crimson;
 }
 
+body {
+    background-color: beige;
+}
+
 button {
     font-size: 200%;
     color: rgb(250,10,10);
     background-color: blue;
 }
 
-#ComingSoon {
-    background-color: darkred;
-    float: right;
-}
-
 #Changelog {
     background-color: cyan;
-    margin-top: 10%;
     float: left;
+    position: absolute;
+    left: 0%;
+    top: 33%;
 }
 
 p {
-    clear: both;
+    position: absolute;
+    left: 0%;
+    top: 28%;
+}
+
+#Disclaimer {
+    background-color: darkgreen;
+    position: absolute;
+    left: 0%;
+    top: 40%;
+}
+
+#Journal {
+    position: absolute;
+    left: 40%;
+    top: 13%;
+}
+
+#Ledger {
+    position: absolute;
+    left: 40%;
+    top: 45.5%;
+}
+
+#TrialBalance {
+    position: absolute;
+    left: 40%;
+    top: 19.5%;
+}
+
+#IncomeStatement {
+    position: absolute;
+    left: 40%;
+    top: 39%;
+}
+
+#RetainedEarnings {
+    position: absolute;
+    left: 40%;
+    top: 52%;
+}
+
+#BalanceSheet {
+    position: absolute;
+    left: 40%;
+    top: 26%;
+}
+
+#Worksheet {
+    position: absolute;
+    left: 40%;
+    top: 32.5%;
+}
+
+#RandomDiv {
+    position: absolute;
+    left: 0%;
+    top: 45%;
+}
+
+#Contact {
+    position: absolute;
+    left: 100px;
+    top: 50px;
 }
