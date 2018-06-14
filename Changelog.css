@@ -3,11 +3,11 @@
     margin-bottom: 15px;
 }
 
-#MainMenu013, #MainMenu014, #MainMenu021, #MainMenu022, #MainMenu023, #MainMenu030 {
+#MainMenu013, #MainMenu014, #MainMenu021, #MainMenu022, #MainMenu023, #MainMenu030, #MainMenu031 {
     border: 2px solid black;
 }
 
-#Worksheet025, #Worksheet026 {
+#Worksheet025, #Worksheet026, #Worksheet030 {
     border: 2px solid red;
 }
 

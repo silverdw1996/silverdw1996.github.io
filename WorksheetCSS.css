@@ -11,7 +11,7 @@ table, th, td {
     padding-bottom: 0px;
 }
 
-table {
+#myTable {
     float: left;
     margin-bottom: 10px;
 }
@@ -40,4 +40,24 @@ div
 
 #AccountTitle {
     text-align: left;
+}
+
+#calculator {
+    position: fixed;
+    top: 84%;
+    left: 77%;
+}
+
+#display {
+    width: 156px;
+    height: 26px;
+}
+
+#number {
+    font-size: 20px;
+}
+
+#number:hover {
+  background-color: crimson;
+
 }

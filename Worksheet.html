@@ -9,7 +9,7 @@
 </head>
 
 <body>
-    <h1 id="Title">WorkSheet (Beta)0.2.6</h1>
+    <h1 id="Title">WorkSheet (Beta)0.3.0</h1>
     
     <table id="myTable">
     <tr>
@@ -46,7 +46,40 @@
             <td><div>$<span contenteditable="true">0.00</span></div></td>
         </tr>
     </table>
+    
     <button onclick="RemoveRow()">Remove Row</button>
     <button onclick="AddRow()">Add Row</button>
+    
+    <form name="calculator" id="calculator">
+        <table>
+            <tr>
+                <td colspan="4"><input type="text" name="display" id="display" disabled></td>
+            </tr>
+            <tr>
+                <td><input type="button" name="one" value="1" onclick="calculator.display.value += '1'" id="number"></td>
+                <td><input type="button" name="two" value="2" onclick="calculator.display.value += '2'" id="number"></td>
+                <td><input type="button" name="three" value="3" onclick="calculator.display.value += '3'" id="number"></td>
+                <td><input type="button" class="operator" name="plus" value="+" onclick="calculator.display.value += '+'" id="number"></td>
+            </tr>
+            <tr>
+                <td><input type="button" name="four" value="4" onclick="calculator.display.value += '4'" id="number"></td>
+                <td><input type="button" name="five" value="5" onclick="calculator.display.value += '5'" id="number"></td>
+                <td><input type="button" name="six" value="6" onclick="calculator.display.value += '6'" id="number"></td>
+                <td><input type="button" class="operator" name="minus" value="-" onclick="calculator.display.value += '-'" id="number"></td>
+            </tr>
+            <tr>
+                <td><input type="button" name="seven" value="7" onclick="calculator.display.value += '7'" id="number"></td>
+                <td><input type="button" name="eight" value="8" onclick="calculator.display.value += '8'" id="number"></td>
+                <td><input type="button" name="nine" value="9" onclick="calculator.display.value += '9'" id="number"></td>
+                <td><input type="button" class="operator" name="multiply" value="*" onclick="calculator.display.value += '*'" id="number"></td>
+            </tr>
+            <tr>
+               <td><input type="button" id="number" name="clear" value="c" onclick="calculator.display.value = ''"></td>
+               <td><input type="button" name="zero" value="0" onclick="calculator.display.value += '0'" id="number"></td>
+               <td><input type="button" name="doit" value="=" onclick="calculator.display.value = eval(calculator.display.value)" id="number"></td>
+               <td><input type="button" class="operator" name="div" value="/" onclick="calculator.display.value += '/'" id="number"></td>
+            </tr>
+        </table>
+    </form>
 </body>
 </html>
